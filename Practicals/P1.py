@@ -31,3 +31,12 @@ if (a <= b):
     print('a is less than or equal to b')
 else:
     print('a is niether less than nor equal to b')
+
+#Output:
+# a is not equal to b
+# a is not equal to b
+# a is greater than b
+# a is not less than b
+# a is greater than or equal to b
+# a is not less than nor equal to b
+# a is neither less than nor equal to b
