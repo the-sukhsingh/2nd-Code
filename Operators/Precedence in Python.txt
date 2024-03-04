@@ -1,0 +1,27 @@
+Precedence in Python Operators
+
+Operator	                        Description
+**	                            Exponentiation (raise to the power)
+~ + -	                        Complement, unary plus and minus (method names for the last two are +@ and -@)
+* / % //	                    Multiply, divide, modulo and floor division
++ -	                            Addition and subtraction
+>> <<	                        Right and left bitwise shift
+&	                            Bitwise 'AND'
+^ |	                            Bitwise exclusive 'OR' and regular 'OR'
+<= < > >=	                    Comparison operators
+<> == !=	                    Equality operators
+= %= /= //= -= += *= **=	    Assignment operators
+is is not	                    Identity operators
+in not in	                    Membership operators
+not or and	                    Logical operators
+
+Python Program to demonstrate the use of Precedence in Python Operators
+x = 10
+y = 20
+z = 15
+print(x + y * z)  #Procedure = (10 + 20 * 15)       Output: 310
+print(x + y - z)  #Procedure = (10 + 20 - 15)       Output: 15
+print(x + y / z)  #Procedure = (10 + 20 / 15)       Output: 11.333333333333334
+print(x + y // z) #Procedure = (10 + 20 // 15)      Output: 11
+print(x + y % z)  #Procedure = (10 + 20 % 15)       Output: 10
+print(x * y + z)  #Procedure = (10 * 20 + 15)       Output: 215
