@@ -1,4 +1,4 @@
-#Python Program to demonstrate teh use of Assignment Operators
+#Python Program to demonstrate the use of Assignment Operators
 a = 10
 b = 20
 c = 2
